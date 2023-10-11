@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "задача-Task1",
+      "appliesTo": "Task1/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "задача-Task2",
+      "appliesTo": "Task2/Task2.csproj",
+      "type": "msbuild"
+    }
+  ]
+}

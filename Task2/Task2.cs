@@ -1,6 +1,5 @@
 ﻿//На вводе будут числа. Тебе нужно преобразовать все в массив и вывести массив на консоль.
 
-
 Console.WriteLine("Введите количество чисел: ");
 int n = Convert.ToInt32(Console.ReadLine());
 int[] numbers = new int[n];

@@ -8,6 +8,7 @@ char symb2 = Convert.ToChar(Console.ReadLine());
 Console.WriteLine($"Вывод в обратном порядке: {symb2} {symb1}");
 
 
+
 //Строка преобразуется в массив символов
 Console.WriteLine("Введите строку из двух символов: ");
 string symb = Console.ReadLine();
@@ -22,6 +23,7 @@ if (symb.Length == 2)
 }
 else
     Console.WriteLine("Строка должна содержать только 2 символа!");
+
 
 
 //Вводится строка из двух символов

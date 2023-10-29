@@ -1,11 +1,11 @@
 ﻿//Вводятся два символа, выводятся они наоборот. То есть, ввожу А и Б, на вывод Б А
-
 //Два символа вводятся отдельно
 Console.WriteLine("Введите первый символ: ");
 string symb1 = Console.ReadLine();
 Console.WriteLine("Введите второй символ: ");
 char symb2 = Convert.ToChar(Console.ReadLine());
 Console.WriteLine($"Вывод в обратном порядке: {symb2} {symb1}");
+
 
 
 //Строка преобразуется в массив символов
@@ -22,6 +22,7 @@ if (symb.Length == 2)
 }
 else
     Console.WriteLine("Строка должна содержать только 2 символа!");
+
 
 
 //Вводится строка из двух символов

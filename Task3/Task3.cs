@@ -6,6 +6,7 @@ string word = Console.ReadLine();
 string[] words = word.Split(' ');
 char[] chars = word.ToCharArray();
 
+
 if (words.Length==1)
 {
     chars = Array.FindAll(chars, c => c != 'A' && c != 'a');
